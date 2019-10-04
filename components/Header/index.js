@@ -13,9 +13,9 @@ const component = document.querySelector(".header-container");
 
 function Header(date, title, temp) {
 	const panel = document.createElement("div");
-	const panelDate = document.createElement("span");
-	const panelTitle = document.createElement("h1");
-	const panelTemp = document.createElement("span");
+	panelDate = document.createElement("span");
+	panelTitle = document.createElement("h1");
+	panelTemp = document.createElement("span");
 
 	panel.append(panelDate, panelTitle, panelTemp);
 

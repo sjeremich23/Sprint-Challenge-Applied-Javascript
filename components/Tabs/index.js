@@ -12,7 +12,7 @@ axios
 	.get("https://lambda-times-backend.herokuapp.com/topics")
 	.then(response => {
 		// deal with the response data in here
-		console.log(response);
+		// console.log(response);
 		const trendingTopics = document.querySelector(".topics");
 		response.data.topics.forEach(item => {
 			let topics = tabContent(item);
@@ -21,7 +21,7 @@ axios
 	})
 	.catch(err => {
 		// deal with the error in here
-		console.log(err);
+		// console.log(err);
 	});
 
 function tabContent(dataresponse) {
